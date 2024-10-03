@@ -1,6 +1,6 @@
 prefix=${pcfiledir}/../..
 libdir=@CMAKE_INSTALL_FULL_LIBDIR@
-includedir=${prefix}/include
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
 
 Name: lcevc_dec
 Description: LCEVC Decoder SDK

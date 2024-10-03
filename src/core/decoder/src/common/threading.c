@@ -77,7 +77,7 @@ static void platformMutexCVWaitTimed(ThreadPlatform_t* platform, uint32_t millis
 
 #elif VN_CORE_FEATURE(WINTHREADS)
 
-#include <Windows.h>
+#include <windows.h>
 
 #define VN_THREADLOOP_SIGNATURE() static DWORD WINAPI threadLoop(LPVOID data)
 

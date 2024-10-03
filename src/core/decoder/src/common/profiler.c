@@ -22,7 +22,7 @@
 #include <stdlib.h>
 
 #if VN_OS(WINDOWS)
-#include <Windows.h>
+#include <windows.h>
 #else
 #include <time.h>
 #endif

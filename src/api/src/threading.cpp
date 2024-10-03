@@ -21,7 +21,7 @@
 #include <direct.h>
 #include <io.h>
 #include <processthreadsapi.h>
-#include <Windows.h>
+#include <windows.h>
 #define stat _stat
 #else
 #ifdef __ANDROID__

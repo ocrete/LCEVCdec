@@ -18,7 +18,7 @@
 namespace lcevc_dec::utility {
 
 #if VN_OS(WINDOWS)
-#include <Windows.h>
+#include <windows.h>
 std::string getExecutablePath()
 {
     // Get executable name

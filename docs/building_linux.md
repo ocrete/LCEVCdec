@@ -18,6 +18,18 @@ See [Getting Started - Linux](getting_started_linux.md).
 
 ## Native build using Ninja
 
+The below instructions are for building against dependencies present in Linux distributions
+
+```shell
+mkdir _build
+cd _build
+cmake -G Ninja ..
+cmake --build .
+```
+
+
+## Native build using Conan and Ninja
+
 The below instructions use `[CONAN_HOME]` as a placeholder. This is typically found at `~/.conan`.
 
 From a shell prompt in `lcevc_dec`:
